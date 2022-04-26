@@ -1,6 +1,0 @@
-E:\Study\Code\cSharp\firstTest\firstTest\bin\Debug\firstTest.exe.config
-E:\Study\Code\cSharp\firstTest\firstTest\bin\Debug\firstTest.exe
-E:\Study\Code\cSharp\firstTest\firstTest\bin\Debug\firstTest.pdb
-E:\Study\Code\cSharp\firstTest\firstTest\obj\Debug\firstTest.csprojResolveAssemblyReference.cache
-E:\Study\Code\cSharp\firstTest\firstTest\obj\Debug\firstTest.exe
-E:\Study\Code\cSharp\firstTest\firstTest\obj\Debug\firstTest.pdb

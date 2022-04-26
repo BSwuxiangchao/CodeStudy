@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZWRxxiulymkwTkJ2yOb005zxk7t5XVqc9OCnPV2bMESGD7/VRBV1mGSFKmbpk0a5yOH8eHceh8fyzzHyOzcT3A==",
+  "success": true,
+  "projectFilePath": "E:\\Study\\Code\\cSharp\\WSServer\\WSServer\\WSServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wuxch\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
