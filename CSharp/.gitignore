@@ -1,0 +1,13 @@
+﻿#C#
+#一定要有的
+*
+!.gitignore
+!*/
+!*.cs
+!*.config
+!*.csproj
+!.**/*.cs
+!.**/*.config
+!.**/*.csproj
+
+
