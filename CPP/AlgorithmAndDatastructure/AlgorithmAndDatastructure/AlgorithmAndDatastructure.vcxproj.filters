@@ -18,5 +18,8 @@
     <ClCompile Include="Btree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SortWay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

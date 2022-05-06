@@ -35,6 +35,9 @@
 build/
 .vscode/
 **/Debug
+**/obj
+**/bin
+
 
 #log file
 **/Log
