@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VYq27w/VKtIX6IdJXpBduxgYHMc7YH2g0k3ttQgFqxdx32OIiIx2hwC4CsJURpca48szn+dcLmz6RWbDgrhAJQ==",
+  "dgSpecHash": "C+0TmpnQQn5KzE3z7P91+WwgP+j0Nbcf0Tzk6v6pIBO/74n4QQeRZ35Y45B3M9DHJ7Uus+5nTpmKz63KVhgatA==",
   "success": true,
-  "projectFilePath": "E:\\Study\\Code\\cSharp\\SecondTest\\SecondTest\\SecondTest.csproj",
+  "projectFilePath": "E:\\ToRemote\\CodeStudy\\CSharp\\SecondTest\\SecondTest\\SecondTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -139,7 +139,23 @@ namespace SecondTest
     }
     class Program
     {
-        
+        public static void OpenExe(string path)
+        {
+            if (!System.IO.File.Exists(path))
+            {
+                Console.WriteLine("not exit the exe file: " + path);
+                return;
+            }
+            var process = new System.Diagnostics.Process();
+            process.StartInfo.FileName = path;
+            process.StartInfo.Arguments = null;
+            process.StartInfo.UseShellExecute = false;
+            process.StartInfo.RedirectStandardInput = false;
+            process.StartInfo.RedirectStandardOutput = false;
+            process.StartInfo.RedirectStandardError = false;
+            process.StartInfo.CreateNoWindow = false;
+            process.Start();
+        }
         static void Main(string[] path)
         {
             //Console.WriteLine("Hello World!");
@@ -219,6 +235,24 @@ namespace SecondTest
                 Console.WriteLine(att);
             }
             Console.WriteLine(nameof(cc));
+
+            int [,] arrA = new int[2,3];
+            int[][] arrB =
+            {
+                new int []{ 2,3,5},
+                new int []{ 3,4}
+            };
+            for (int i = 0; i < 2; i++)
+                for (int j = 0; j < 3; j++)
+                    arrA[i,j] = i;
+            foreach (var te in arrA)
+                Console.WriteLine(te);
+            Console.WriteLine("arrB...");
+
+            for(int j = 0;j<arrB.Length;j++)
+                foreach (var te in arrB[j])
+                    Console.WriteLine(te);
+            OpenExe(@"E:\Study\CodeStudy\CSharp\UIDemo1\UIDemo1\bin\Debug\UIDemo1.exe");
         }
     }
 }

@@ -21,5 +21,16 @@
     <ClCompile Include="SortWay.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="NoName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileOpt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFileOpt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

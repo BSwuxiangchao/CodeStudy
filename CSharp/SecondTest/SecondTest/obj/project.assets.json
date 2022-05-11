@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Study\\Code\\cSharp\\SecondTest\\SecondTest\\SecondTest.csproj",
+      "projectUniqueName": "E:\\ToRemote\\CodeStudy\\CSharp\\SecondTest\\SecondTest\\SecondTest.csproj",
       "projectName": "SecondTest",
-      "projectPath": "E:\\Study\\Code\\cSharp\\SecondTest\\SecondTest\\SecondTest.csproj",
+      "projectPath": "E:\\ToRemote\\CodeStudy\\CSharp\\SecondTest\\SecondTest\\SecondTest.csproj",
       "packagesPath": "C:\\Users\\wuxch\\.nuget\\packages\\",
-      "outputPath": "E:\\Study\\Code\\cSharp\\SecondTest\\SecondTest\\obj\\",
+      "outputPath": "E:\\ToRemote\\CodeStudy\\CSharp\\SecondTest\\SecondTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wuxch\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -140,7 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Btree.cpp" />
+    <ClCompile Include="CFileOpt.cpp" />
+    <ClCompile Include="NoName.cpp" />
     <ClCompile Include="SortWay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFileOpt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

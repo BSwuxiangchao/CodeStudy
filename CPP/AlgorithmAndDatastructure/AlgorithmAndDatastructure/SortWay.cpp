@@ -3,7 +3,7 @@
 
 using namespace std;
 template <typename T>
-void Swap(T &a, T &b)
+void Swap(T& a, T& b)
 {
 	T temp = a;
 	a = b;
@@ -351,7 +351,22 @@ void BucketSort(int arr[], int size)
 		//CountSort(tempA[i],)
 	}
 }
-int main(int argc, char* argv[])
+
+//基数排序
+void BaseSort(int arr[], int size)
+{
+	int(*testArr)[5] = new int[4][5]();
+	for (int i = 0 ;i<4;i++)
+	{
+		for (int j =0;j<5;j++)
+		{
+			cout << testArr[i][j] << " ";
+		}
+		cout << endl;
+	}
+}
+
+int main2(int argc, char* argv[])
 {
 	char str;
 	do 
@@ -418,10 +433,15 @@ int main(int argc, char* argv[])
 			cout << "\n桶排序算法输出" << endl;
 			BucketSort(nums, sizeof(nums) / sizeof(int));
 			break;
+		case 10:
+			cout << "\n基数排序算法输出" << endl;
+			BaseSort(nums, sizeof(nums) / sizeof(int));
+			break;
 		}
 		DisplayNums(nums, sizeof(nums) / sizeof(int));
 		cout << "耗时 " << (double)(clock() - startT) / CLOCKS_PER_SEC << "秒" << endl;
 		cout << "继续使用排序算法吗(Y/N): "<<endl;
 		cin >> str;
 	} while (str == 'Y');
+	return 0;
 }
