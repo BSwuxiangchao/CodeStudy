@@ -1,0 +1,7 @@
+<RCC>
+    <qresource lang="English" prefix="/myImages">
+        <file>Pictures/f1.png</file>
+        <file>Pictures/f10.png</file>
+        <file>Pictures/g8.png</file>
+    </qresource>
+</RCC>
