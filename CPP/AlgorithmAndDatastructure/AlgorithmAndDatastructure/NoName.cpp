@@ -172,7 +172,7 @@ class CC final :public AA
 //};
 #pragma endregion
 
-int main(int argc, char* argv[])
+int main3(int argc, char* argv[])
 {
 	Person<int> *p = new Person<int >(23);
 	p->DisplayInfo();
@@ -200,5 +200,7 @@ int main(int argc, char* argv[])
 	dd.showInfo();
 	aa = dd;
 	aa.showInfo();
+	
+
 	return 0;
 }

@@ -1,7 +1,8 @@
+
 #include<iostream>
 #include <ctime>
-
 using namespace std;
+
 template <typename T>
 void Swap(T& a, T& b)
 {
@@ -443,5 +444,9 @@ int main2(int argc, char* argv[])
 		cout << "继续使用排序算法吗(Y/N): "<<endl;
 		cin >> str;
 	} while (str == 'Y');
+	cout << "bug start" << endl;
+	int* ptest = nullptr;
+	*ptest = 5;
+	cout << "bug end" << endl;
 	return 0;
 }

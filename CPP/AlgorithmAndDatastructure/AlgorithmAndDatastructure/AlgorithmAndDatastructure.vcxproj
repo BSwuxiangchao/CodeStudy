@@ -92,6 +92,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\ToRemote\CodeStudy\CPP\AlgorithmAndDatastructure\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -141,6 +143,7 @@
   <ItemGroup>
     <ClCompile Include="Btree.cpp" />
     <ClCompile Include="CFileOpt.cpp" />
+    <ClCompile Include="DumpTest.cpp" />
     <ClCompile Include="NoName.cpp" />
     <ClCompile Include="SortWay.cpp" />
   </ItemGroup>
