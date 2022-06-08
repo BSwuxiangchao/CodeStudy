@@ -80,7 +80,7 @@ LONG WINAPI ExceptionFilter(LPEXCEPTION_POINTERS lpExceptionInfo)
     return GenerateMiniDump(lpExceptionInfo);
 }
 
-int main()
+int main3()
 {
     // 加入崩溃dump文件功能
     SetUnhandledExceptionFilter(ExceptionFilter);
@@ -89,4 +89,5 @@ int main()
     int* p = nullptr;
     *p = 1;
     std::cout << "bug end" << endl;
+    return 0;
 }

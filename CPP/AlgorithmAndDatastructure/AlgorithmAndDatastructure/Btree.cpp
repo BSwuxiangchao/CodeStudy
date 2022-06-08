@@ -88,7 +88,7 @@ int GetDepth(BTNode* root)
 	int iRD = GetDepth(root->RChild);
 	return (iLD > iRD ? (iLD + 1) : (iRD + 1));
 }
-int main1()
+int main()
 {
 	std::cout << "Hello World!\n";
 

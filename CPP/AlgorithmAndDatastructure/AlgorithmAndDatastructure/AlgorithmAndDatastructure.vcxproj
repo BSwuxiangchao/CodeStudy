@@ -144,6 +144,7 @@
     <ClCompile Include="Btree.cpp" />
     <ClCompile Include="CFileOpt.cpp" />
     <ClCompile Include="DumpTest.cpp" />
+    <ClCompile Include="LinkLabel.cpp" />
     <ClCompile Include="NoName.cpp" />
     <ClCompile Include="SortWay.cpp" />
   </ItemGroup>
